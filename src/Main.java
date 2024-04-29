@@ -52,15 +52,15 @@ public class Main {
         for (int i = 1; i <= 12; i++) {
             total = total + (total / 100);
             total = total + salary;
-            System.out.println("месяц " + i + " сумма накоплений равна " + total);
+            System.out.println("месяц " + i + " сумма накоплений равна "+ String.format("%.2f", total)+"рублей");
 
         }
 
         //задание №10
         int result;
-        for (int m = 1; m <= 10; m++) {
-            result = m * 2;
-            System.out.println(+m + "*2=" + result);
+        for (int m=1; m<=10;m++){
+            result=m*2;
+            System.out.println(+m+"*2="+result);
         }
     }
 
